@@ -38,6 +38,14 @@ The objective is to identify the groups of customers who are most likely to defa
 
 In this way, the data were prepared for the next step, i.e. data analysis.
 
+## Data Analysis
+- The new categorised columns were gathered into a new dataframe, however, this new dataframe has several duplicates due to the new categories. Hence, the duplicates were removed and the number of entries (rows) reduced to 34848 from 38577.
+- For every column of this dataframe, two plots were produced:
+    - frequency count plots of categories of ‘charged_off?’ over the new categories of the column
+    - percentage frequency count plots of the above plot: in order to observed the share (percentage) of defaulters of every new category of the column.
+
+### Impact of 'int_rate_cat' on 'charged_off?'
+xxx
 
 
 ## General Information
