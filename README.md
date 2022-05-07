@@ -46,7 +46,7 @@ In this way, the data were prepared for the next step, i.e. data analysis.
 
 #### Impact of 'int_rate_cat' on 'charged_off?'
 <img src="/images/int_rate_cat.png" width = 1000>
-As can be seen, the **interest rate of more than 20%** can potentially be considered as one of the drivers of the customer being charged off, since the percentage of the defaulters in this category of interest rate is much higher than the same percentage in the rest of the categories.
+As can be seen, the <strong>interest rate of more than 20%</strong> can potentially be considered as one of the drivers of the customer being charged off, since the percentage of the defaulters in this category of interest rate is much higher than the same percentage in the rest of the categories.
 
 
 ## General Information
