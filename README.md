@@ -2,12 +2,23 @@
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
+* [Problem Statement](#problem-statement)
+* [Data Understanding](#data-understanding)
+* [Data Cleaning](#data-cleaning)
+* [Data Analysis](#data-analysis)
+* [Recommendations](#recommendations)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+## Problem Statement
+It is important for a Lending Club to identify which group of customers might default, meaning they might be charged off and don't return the money, based on their application. If this identification is not performed correctly, it can lead to loss of business in two ways:
+- If the application of the customers who fully pay their loan, is mistakenly rejected, then this will lead to the loss of business.
+- If the application of the defaulters are approved, and then later they are charged off and don't return the money back, then this will also lead to loss of business.
+
+In this project the dataset, containing the history of customers of a Lending Club is given, with the information about whether each customer has been charged off or fully paid back the loan.
+
+The objective is to identify the groups of customers who are most likely to default, and advise this to the business.
+
+
 
 ## General Information
 - Provide general information about your project here.
