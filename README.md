@@ -27,6 +27,18 @@ The objective is to identify the groups of customers who are most likely to defa
     - columns that have: (i) only one unique value; (ii) IDs; (iii) only 0 or NaN; (iv) ‘sub_grade’, due to no need for further granularity; (v) URL, description, loan title and employment title since these have no impact on the loan_status.
 - The rows that have ‘Current’ value in loan_status column were removed from the dataframe, since it is unknown whether they will be charged off (default) or not.
 
+## Data Cleaning
+- The columns 'emp_length' and 'pub_rec_bankruptcies’ are both categorical and still have null values. For these columns, the most frequent element in the column is replaced with the NaN values. (the number of rows (data entries) that are affected are less than 4.50% of the entire rows. Hence, this doesn't significantly impact the analysis.)
+- Sanity check performed to ensure: 
+        funded_amnt_inv <= funded_amnt <= loan_amnt
+- Preparing columns for data analysis
+    - The ‘loan_status’ with the entries of 'Fully Paid', 'Charged Off’ were transformed to ‘0’ and ‘1’, respectively, in a new column called ‘charged_off?’.
+    - The ‘%’ at the end of the elements in interest rate were removed.
+    - All the columns were categorised into bins in order to analyse the data in manageable number of categories rather than in numeric values or in higher number of categories.
+
+In this way, the data were prepared for the next step, i.e. data analysis.
+
+
 
 ## General Information
 - Provide general information about your project here.
