@@ -44,27 +44,27 @@ In this way, the data were prepared for the next step, i.e. data analysis.
     - frequency count plots of categories of ‘charged_off?’ over the new categories of the column
     - percentage frequency count plots of the above plot: in order to observed the share (percentage) of defaulters of every new category of the column.
 
-#### Impact of 'int_rate_cat' on 'charged_off?'
+### Impact of 'int_rate_cat' on 'charged_off?'
 <img src="/images/int_rate_cat.png" width = 800>
 As can be seen, the <strong>interest rate of more than 20%</strong> can potentially be considered as one of the drivers of the customer being charged off, since the percentage of the defaulters in this category of interest rate is much higher than the same percentage in the rest of the categories.
 
-#### Impact of 'pub_rec_bankruptcies_cat' on 'charged_off?'
+### Impact of 'pub_rec_bankruptcies_cat' on 'charged_off?'
 <img src="/images/pub_rec_bankruptcies_cat.png" width = 800>
 The customers with <strong>2 public records of bankruptcies</strong> are very probable to default.
 
-#### Impact of ‘purpose' on 'charged_off?'
+### Impact of ‘purpose' on 'charged_off?'
 <img src="/images/purpose.png" width = 800>
 The <strong>loan purpose of 'small business'</strong> can also be considered as another driver for the customer to default.
 
-#### Impact of ‘grade' on 'charged_off?'
+### Impact of ‘grade' on 'charged_off?'
 <img src="/images/grade.png" width = 800>
 As can be seen, customers with <strong>LC assigned loan grade of 'G'</strong> is very probable to default due to the much higher percentage of defaulters in this category.
 
-#### Impact of ‘term' on 'charged_off?'
+### Impact of ‘term' on 'charged_off?'
 <img src="/images/term.png" width = 800>
 The loans with <strong>60 months return term</strong> is very probable to be charged off. Hence, this category of loan term can be considered as one of the drivers to default.
 
-#### Impact of 'funded_amnt_inv_cat', 'funded_amnt_cat', and 'loan_amnt_cat' on 'charged_off?'
+### Impact of 'funded_amnt_inv_cat', 'funded_amnt_cat', and 'loan_amnt_cat' on 'charged_off?'
 <img src="/images/funded_amnt_inv_cat.png" width = 800>
 <img src="/images/funded_amnt_cat.png" width = 800>
 <img src="/images/loan_amnt_cat.png" width = 800>
