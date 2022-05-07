@@ -45,47 +45,43 @@ In this way, the data were prepared for the next step, i.e. data analysis.
     - percentage frequency count plots of the above plot: in order to observed the share (percentage) of defaulters of every new category of the column.
 
 #### Impact of 'int_rate_cat' on 'charged_off?'
-<img src="/images/int_rate_cat.png" width = 1000>
+<img src="/images/int_rate_cat.png" width = 800>
 As can be seen, the <strong>interest rate of more than 20%</strong> can potentially be considered as one of the drivers of the customer being charged off, since the percentage of the defaulters in this category of interest rate is much higher than the same percentage in the rest of the categories.
 
+#### Impact of 'pub_rec_bankruptcies_cat' on 'charged_off?'
+<img src="/images/pub_rec_bankruptcies_cat.png" width = 800>
+The customers with <strong>2 public records of bankruptcies</strong> are very probable to default.
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+#### Impact of ‘purpose' on 'charged_off?'
+<img src="/images/purpose.png" width = 800>
+The <strong>loan purpose of 'small business'</strong> can also be considered as another driver for the customer to default.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+#### Impact of ‘grade' on 'charged_off?'
+<img src="/images/grade.png" width = 800>
+As can be seen, customers with <strong>LC assigned loan grade of 'G'</strong> is very probable to default due to the much higher percentage of defaulters in this category.
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+#### Impact of ‘term' on 'charged_off?'
+<img src="/images/term.png" width = 800>
+The loans with <strong>60 months return term</strong> is very probable to be charged off. Hence, this category of loan term can be considered as one of the drivers to default.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+#### Impact of 'funded_amnt_inv_cat', 'funded_amnt_cat', and 'loan_amnt_cat' on 'charged_off?'
+<img src="/images/funded_amnt_inv_cat.png" width = 800>
+<img src="/images/funded_amnt_cat.png" width = 800>
+<img src="/images/loan_amnt_cat.png" width = 800>
+As can be seen, in all the above graphs, the percentage share of defaulters in the <strong>'30k-35k' category</strong> is higher compared to the rest of the categories. Hence, this category for 'funded_amnt_inv_cat', 'funded_amnt_cat', and 'loan_amnt_cat' can be considered as one of the drivers for the customer to be charged off.
 
+## Recommendations
+Analysis of the data of the Lending Club reveals that the customers within the following categories are most probable to default and cause loss of business to the Lending Club:
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- interest rate more than 20%
+- 2 public records of bankruptcy
+- loan term of 60 months
+- loan of 30k-35k during all the stages of application by the customer, approving by the club, and investing by the investors.
+- loan purpose of 'small business'
+- LC assigned loan grade of 'G'
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+- I would like to acknowledge the feedback, support and dataset provision by [upGrad](https://www.upgrad.com/gb/) and [The International Institute of Information Technology (IIIT), Bangalore](https://www.iiitb.ac.in/).
+- Also, I would like to express my gratitude to [Aditya Bhattacharya](https://www.linkedin.com/in/aditya-bhattacharya-b59155b6/) for providing clarification and guidance to carry out this project.
+- Furthermore, the valuable feedback from [Dr Tayeb Jamali](https://www.linkedin.com/in/tayeb-jamali-b1a10937/) is highly appreciated.
