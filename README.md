@@ -18,6 +18,14 @@ In this project the dataset, containing the history of customers of a Lending Cl
 
 The objective is to identify the groups of customers who are most likely to default, and advise this to the business.
 
+## Data Understanding
+- The dataset of the Lending Club was imported.
+- The columns with more than 50% of NaN (null) values were removed, and hence the number of columns dropped to 54 from 111.
+- The following columns were also removed:
+    - Customer behaviour: since these are used at the time of revieweing the loan application and before approving the application. However, now that all the applications of the customers are approved, these columns are irrelevant to this study
+    - the geographic location of the applicant
+    - columns that have: (i) only one unique value; (ii) IDs; (iii) only 0 or NaN; (iv) ‘sub_grade’, due to no need for further granularity; (v) URL, description, loan title and employment title since these have no impact on the loan_status.
+- The rows that have ‘Current’ value in loan_status column were removed from the dataframe, since it is unknown whether they will be charged off (default) or not.
 
 
 ## General Information
